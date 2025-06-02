@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 from logging import basicConfig, getLogger
 
 # ------------------------------------------------------
-# Configuração Logfire - (adicionando token do logfire)
+# Configuração Logfire 
 logfire.configure(token='pylf_v1_us_L41tBSClH8mXBrJhjx0Cs4k5kYq9Thz6hhtgcN4jvtv1')
 basicConfig(handlers=[logfire.LogfireLoggingHandler()])
 logger = getLogger(__name__)

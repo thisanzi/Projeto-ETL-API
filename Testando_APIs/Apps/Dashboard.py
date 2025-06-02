@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 
 # 1) st.title - Título principal
-st.title("🚀 Quick Starter Streamlit - Jornada de dados")
+st.title("🚀 Quick Starter Streamlit")
 
 # 2) st.header - Seção
 st.header("1. Contexto de Data Engineering")
@@ -116,4 +116,4 @@ if st.button("Disparar Nova Execução"):
     st.write(f"Camadas selecionadas: {', '.join(camadas)}")
 
 st.markdown("___")
-st.caption("Quick Starter de Streamlit aplicado à Engenharia de Dados. © 2024")
+st.caption("Quick Starter de Streamlit")
