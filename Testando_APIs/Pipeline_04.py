@@ -87,7 +87,7 @@ def salvar_dados_postgres(dados):
         session.close()
 
 def pipeline_bitcoin():
-    """Executa a pipeline de ETL do Bitcoin com spans do Logfire."""
+    """Executa a pipeline de ETL do Bitcoin com eventos do Logfire."""
     with logfire.span("Executando pipeline ETL Bitcoin"):
         
         with logfire.span("Extrair Dados da API Coinbase"):
@@ -103,7 +103,7 @@ def pipeline_bitcoin():
         with logfire.span("Salvar Dados no Postgres"):
             salvar_dados_postgres(dados_tratados)
 
-        # Exemplo de log final com placeholders
+        # Exemplo de log final
         logger.info(
             f"Pipeline finalizada com sucesso!"
         )

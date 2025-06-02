@@ -2,7 +2,7 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, Float, String, Integer, DateTime
 from datetime import datetime
 
-# Cria a classe Base do SQLAlchemy (na versão 2.x)
+# Cria a classe Base do SQLAlchemy
 Base = declarative_base()
 
 class BitcoinPreco(Base):
