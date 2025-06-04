@@ -27,14 +27,7 @@ Para utilizar o projeto, siga estas instruções:
 1.  ...
 2.  ...
 
-## Contribuição
-
-Para contribuir para o projeto, siga as diretrizes de contribuição no arquivo [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Licença
-
-Este projeto está licenciado sob a licença [MIT](LICENSE.md).
 
 ## Contato
 
-Para entrar em contato comigo, use o e-mail: seu-email@example.com
+Para entrar em contato comigo, use o e-mail: thiagosansevero@gmail.com
